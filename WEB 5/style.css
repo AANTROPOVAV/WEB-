@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header {
+    background-color: #69d56e;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .profile {
+    display: flex;
+    align-items: center;
+}
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-info h2 {
+    margin: 0;
+    font-size: 18px;
+}
+.user-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #b0b0b0;
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+.nav a:hover {
+    color: #00ff04;
+}
+.container {
+    display: flex;
+    flex-grow: 1;
+}
+.sidebar {
+    width: 250px;
+    background-color: #13300f;
+    color: white;
+    padding: 20px;
+}
+.sidebar .nav {
+    flex-direction: column;
+    gap: 10px;
+}
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.footer {
+    background-color: #0f3017;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+.footer .contacts {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 15px;
+}
+.footer .contacts div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.footer .contacts div img {
+    width: 20px;
+    height: 20px;
+}
+.footer a {
+    color: #31b04a;
+    text-decoration: none;
+    margin: 0 10px;
+}
